@@ -1,0 +1,24 @@
+{
+  "name": "student-validation-bcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinaza/student-validation-bcs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chinaza/student-validation-bcs/issues"
+  },
+  "homepage": "https://github.com/chinaza/student-validation-bcs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
