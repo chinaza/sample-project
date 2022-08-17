@@ -13,7 +13,7 @@ app.post('/register', registerStudent);
 app.get('/validate/:id', validateStudent);
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello BCS!');
 });
 
 app.listen(3000);
