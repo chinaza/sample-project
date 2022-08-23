@@ -10,4 +10,5 @@ export async function getFromDB(id) {
   const result = await ValidationModel.findOne({studentId: id});
 
    return result;
+   
 }
