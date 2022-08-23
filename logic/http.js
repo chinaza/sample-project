@@ -9,13 +9,7 @@ export async function getStudentStatusFromMocki(studentId) {
   // valid ID: 1bb839fb-4ed8-4855-ab2c-bb535e0fef96
   // WRITE YOUR CODE HERE
 
-  { 
-    let studentId = [
-       {"id":number,"firstName": string,"lastName":string,"email":email,"schoolEndDate":date,"schoolName":string}
-    ]
-   }
-
-  const response = await fetch('https://mocki.io/v1/1bb839fb-4ed8-4855-ab2c-bb535e0fef96')
+  const response = await fetch('https://mocki.io/v1/' + studentId)
 
   if (!response.ok) return false;
 
