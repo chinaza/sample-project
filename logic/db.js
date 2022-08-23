@@ -7,6 +7,10 @@ import ValidationModel from '../models/validations';
 export async function saveToDB(student) {
   // WRITE YOUR CODE HERE
 }
+export async function saveToDB(student) {
+  
+  await ValidationModel.create(student);
+}
 
 /**
  * @param  {string} id
