@@ -1,12 +1,5 @@
 import ValidationModel from '../models/validations';
 
-/**
- * @param  {{studentId: string, name: string, isStudent: boolean}} student
- * @returns {Promise<void>}
- */
-export async function saveToDB(student) {
-  // WRITE YOUR CODE HERE
-}
 
 /**
  * @param  {string} id
@@ -14,4 +7,7 @@ export async function saveToDB(student) {
  */
 export async function getFromDB(id) {
   // WRITE YOUR CODE HERE
+  const result = await ValidationModel.findOne({studentId: id});
+
+   return result;
 }
