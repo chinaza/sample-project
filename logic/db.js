@@ -15,3 +15,11 @@ export async function saveToDB(student) {
 export async function getFromDB(id) {
   // WRITE YOUR CODE HERE
 }
+export async function saveToDB(student) {
+  export async function getFromDB(id) {
+    const result = await ValidationModel.findOne({studentId: id});
+    return result;
+  }
+}
+
+
