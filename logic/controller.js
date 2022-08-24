@@ -10,15 +10,13 @@ import { getStudentStatusFromMocki } from './http';
 export async function registerStudent(req, res) {
   const studentId = req.body.studentId;
   const name = req.body.name;
-  
 }
 
 /**
  * @param  {Request} req
  * @param  {Response} res
  */
-export async function validateStudent(req, res) 
+export async function validateStudent(req, res) {
   const studentId = req.params.id;
   // WRITE YOUR CODE HERE
-
-
+}
